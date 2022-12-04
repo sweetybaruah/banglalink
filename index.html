@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Banglalink</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="banner">
+            <img src="./300x250/300x250.jpg" alt="">
+            <div class="country">
+                <div class="country1">Brazil</div>
+                <div class="country2">Argentina</div>
+                <div class="flag1"></div>
+                <div class="flag2"></div>
+            </div>
+            <div class="countdown_container hidden">
+                <div class="tick" data-did-init="handleTickInit">
+                  <div
+                    data-repeat="true"
+                    data-layout="horizontal fit"
+                    data-transform="preset(h, m, s) -> delay"
+                  >
+                    <div class="tick-group hidden">
+                      <div
+                        data-key="value"
+                        data-repeat="true"
+                        data-transform="pad(00) -> split -> delay"
+                      >
+                        <span data-view="flip hidden"></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <div class="countdown">
+                <div class="hour">00</div>
+                <div class="min">00</div>
+                <div class="sec">00</div>
+            </div>
+            <div class="static hidden">
+                <span class="stat" id="stat"></span>
+              </div>
+        </div>
+
+    </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="./script.js"></script>
+<script src="./idk.js"></script>
+</html>
